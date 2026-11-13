@@ -1,0 +1,14 @@
+{
+  "search_queries": [
+    "topic:harmonyos",
+    "topic:openharmony",
+    "HarmonyOS hap",
+    "OpenHarmony hap"
+  ],
+  "seed_repositories": [],
+  "excluded_repositories": [],
+  "max_repositories_per_query": 40,
+  "max_releases_per_repository": 100,
+  "include_prereleases": true,
+  "readme_max_rows": 200
+}
