@@ -181,8 +181,8 @@ def discover_apps(client: GitHubClient, config: dict[str, Any]) -> list[dict[str
     if not successful_searches and not successful_seed_fetches:
         raise GitHubAPIError("all repository searches failed; keeping existing data")
 
-    apps: dict[tuple[str, str], dict[str, Any]] = {}
-    release_limit = int(config.get("max_releases_per_repository", 30))
+    apps: dict[str, dict[str, Any]] = {}
+    release_limit = int(config.get("max_releases_per_repository", 100))
     successful_release_fetches = 0
 
     for index, (full_name, repository) in enumerate(sorted(repositories.items()), start=1):
@@ -194,6 +194,7 @@ def discover_apps(client: GitHubClient, config: dict[str, Any]) -> list[dict[str
             continue
 
         metadata = repository_metadata(repository)
+        has_hap = False
         for release in releases:
             if release.get("draft"):
                 continue
@@ -203,26 +204,20 @@ def discover_apps(client: GitHubClient, config: dict[str, Any]) -> list[dict[str
                 asset_name = str(asset.get("name", ""))
                 if not asset_name.lower().endswith(".hap"):
                     continue
-                download_url = asset.get("browser_download_url", "")
-                key = (full_name.lower(), download_url or asset_name.lower())
-                apps[key] = {
-                    "app_name": metadata["name"],
-                    "repository": metadata["full_name"],
-                    "repository_url": metadata["url"],
-                    "description": metadata["description"],
-                    "license": metadata["license"],
-                    "stars": metadata["stars"],
-                    "version": release.get("tag_name") or release.get("name") or "",
-                    "release_name": release.get("name") or "",
-                    "release_url": release.get("html_url", ""),
-                    "published_at": release.get("published_at") or release.get("created_at") or "",
-                    "prerelease": bool(release.get("prerelease")),
-                    "asset_name": asset_name,
-                    "download_url": download_url,
-                    "size": asset.get("size", 0),
-                    "digest": asset.get("digest") or "",
-                    "asset_updated_at": asset.get("updated_at") or asset.get("created_at") or "",
-                }
+                has_hap = True
+                break
+            if has_hap:
+                break
+        if has_hap:
+            apps[full_name.lower()] = {
+                "app_name": metadata["name"],
+                "repository": metadata["full_name"],
+                "repository_url": metadata["url"],
+                "description": metadata["description"],
+                "license": metadata["license"],
+                "stars": metadata["stars"],
+                "has_hap": True,
+            }
         if index % 10 == 0:
             print(f"releases: checked {index}/{len(repositories)} repositories")
 
@@ -232,21 +227,9 @@ def discover_apps(client: GitHubClient, config: dict[str, Any]) -> list[dict[str
     return sorted(
         apps.values(),
         key=lambda app: (
-            app.get("published_at", "") or "",
             app.get("repository", ""),
-            app.get("asset_name", ""),
         ),
-        reverse=True,
     )
-
-
-def format_size(size: int) -> str:
-    value = float(size or 0)
-    for unit in ("B", "KB", "MB", "GB"):
-        if value < 1024 or unit == "GB":
-            return f"{value:.1f} {unit}" if unit != "B" else f"{int(value)} B"
-        value /= 1024
-    return "-"
 
 
 def markdown_cell(value: Any) -> str:
@@ -255,27 +238,22 @@ def markdown_cell(value: Any) -> str:
 
 def apps_table(apps: list[dict[str, Any]], max_rows: int) -> str:
     if not apps:
-        return "暂无发现 `.hap` Release asset。"
+        return "暂无发现包含 `.hap` Release 的仓库。"
     rows = [
-        "| 应用 / 仓库 | 版本 | HAP 文件 | 大小 | 发布日期 |",
-        "|---|---|---|---:|---|",
+        "| 仓库 | 描述 | Stars | 许可证 |",
+        "|---|---|---:|---|",
     ]
     for app in apps[:max_rows]:
         repository = markdown_cell(app["repository"])
         repository_url = app["repository_url"]
-        release_url = app["release_url"]
         repository_link = f"[{repository}]({repository_url})" if repository_url else repository
-        asset = markdown_cell(app["asset_name"])
-        asset_link = f"[{asset}]({app['download_url']})" if app["download_url"] else asset
-        version = markdown_cell(app["version"])
-        version_cell = f"[{version}]({release_url})" if release_url and version else version
-        published = markdown_cell(app["published_at"][:10])
         rows.append(
-            f"| {repository_link} | {version_cell} | {asset_link} | {format_size(app['size'])} | {published} |"
+            f"| {repository_link} | {markdown_cell(app['description']) or '-'} | "
+            f"{app.get('stars', 0)} | {markdown_cell(app['license']) or '-'} |"
         )
     if len(apps) > max_rows:
         rows.append("")
-        rows.append(f"> README 仅显示最新 {max_rows} 条，完整列表请查看在线网页。")
+        rows.append(f"> README 仅显示前 {max_rows} 个仓库，完整列表请查看在线网页。")
     return "\n".join(rows)
 
 
@@ -298,7 +276,7 @@ def render_readme(template_path: Path, apps: list[dict[str, Any]], max_rows: int
     generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     block = (
         f"<!-- APPS:START -->\n"
-        f"最近更新：`{generated_at}`，共发现 **{len(apps)}** 个 HAP 文件。\n\n"
+        f"最近更新：`{generated_at}`，共发现 **{len(apps)}** 个包含 HAP 的仓库。\n\n"
         f"{apps_table(apps, max_rows)}\n"
         f"<!-- APPS:END -->"
     )
@@ -346,7 +324,7 @@ def main() -> int:
     write_json(output_dir / "site" / "data" / "apps.json", payload)
     readme = render_readme(template_path, apps, int(config.get("readme_max_rows", 200)))
     (output_dir / "README.md").write_text(readme, encoding="utf-8")
-    print(f"generated {len(apps)} HAP assets")
+    print(f"generated {len(apps)} repositories")
     return 0
 
 

@@ -17,7 +17,7 @@
       input, select { border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--text); padding: 10px 12px; font: inherit; }
       input { flex: 1 1 300px; }
       .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
-      table { width: 100%; border-collapse: collapse; min-width: 780px; }
+      table { width: 100%; border-collapse: collapse; min-width: 680px; }
       th, td { text-align: left; padding: 13px 15px; border-bottom: 1px solid var(--line); vertical-align: top; }
       th { color: var(--muted); font-size: 13px; text-transform: uppercase; letter-spacing: .03em; }
       tr:last-child td { border-bottom: 0; }
@@ -30,31 +30,23 @@
   <body>
     <main>
       <h1>HAP Index</h1>
-      <p class="intro">自动发现公开 GitHub Release 中的 OpenHarmony / HarmonyOS `.hap` 安装包。页面只保存索引，下载链接指向原项目。</p>
+      <p class="intro">自动发现公开 GitHub Release 中包含 `.hap` 的 OpenHarmony / HarmonyOS 仓库。点击仓库后查看版本和安装包。</p>
       <p id="meta" class="meta">正在加载数据…</p>
       <div class="toolbar">
-        <input id="search" type="search" placeholder="搜索应用、仓库或 HAP 文件名" aria-label="搜索" />
+        <input id="search" type="search" placeholder="搜索应用、仓库或描述" aria-label="搜索" />
         <select id="sort" aria-label="排序">
-          <option value="date">按发布日期</option>
           <option value="stars">按 Star 数</option>
           <option value="name">按名称</option>
         </select>
       </div>
       <div class="table-wrap">
         <table>
-          <thead><tr><th>应用 / 仓库</th><th>版本</th><th>HAP 文件</th><th>大小</th><th>发布日期</th><th>许可证</th></tr></thead>
-          <tbody id="apps"><tr><td colspan="6">正在加载…</td></tr></tbody>
+          <thead><tr><th>仓库</th><th>描述</th><th>Stars</th><th>许可证</th></tr></thead>
+          <tbody id="apps"><tr><td colspan="4">正在加载…</td></tr></tbody>
         </table>
       </div>
     </main>
     <script>
-      const formatSize = bytes => {
-        if (!bytes) return "-";
-        const units = ["B", "KB", "MB", "GB"];
-        let value = bytes, index = 0;
-        while (value >= 1024 && index < units.length - 1) { value /= 1024; index += 1; }
-        return `${value.toFixed(index ? 1 : 0)} ${units[index]}`;
-      };
       const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch]));
       const appRows = document.querySelector("#apps");
       const search = document.querySelector("#search");
@@ -62,22 +54,20 @@
       let apps = [];
       function render() {
         const term = search.value.trim().toLowerCase();
-        const filtered = apps.filter(app => [app.app_name, app.repository, app.asset_name, app.version].join(" ").toLowerCase().includes(term));
+        const filtered = apps.filter(app => [app.app_name, app.repository, app.description].join(" ").toLowerCase().includes(term));
         const sorted = [...filtered].sort((a, b) => {
           if (sort.value === "stars") return (b.stars || 0) - (a.stars || 0);
           if (sort.value === "name") return a.app_name.localeCompare(b.app_name);
-          return String(b.published_at || "").localeCompare(String(a.published_at || ""));
+          return a.app_name.localeCompare(b.app_name);
         });
         appRows.innerHTML = sorted.length ? sorted.map(app => `<tr>
-          <td><a href="${esc(app.repository_url)}" target="_blank" rel="noopener">${esc(app.repository)}</a><div class="muted">${esc(app.description)}</div></td>
-          <td><a href="${esc(app.release_url)}" target="_blank" rel="noopener">${esc(app.version)}</a></td>
-          <td><a href="${esc(app.download_url)}" target="_blank" rel="noopener">${esc(app.asset_name)}</a></td>
-          <td>${formatSize(app.size)}</td><td>${esc((app.published_at || "").slice(0, 10))}</td><td>${esc(app.license || "-")}</td>
-        </tr>`).join("") : '<tr><td colspan="6">没有匹配的项目。</td></tr>';
+          <td><a href="${esc(app.repository_url)}" target="_blank" rel="noopener">${esc(app.repository)}</a></td>
+          <td>${esc(app.description || "-")}</td><td>${app.stars || 0}</td><td>${esc(app.license || "-")}</td>
+        </tr>`).join("") : '<tr><td colspan="4">没有匹配的项目。</td></tr>';
       }
       Promise.all([fetch("data/apps.json").then(response => response.json())]).then(([payload]) => {
         apps = payload.apps || [];
-        document.querySelector("#meta").textContent = `共 ${apps.length} 个 HAP 文件，最后更新于 ${payload.generated_at || "-"}`;
+        document.querySelector("#meta").textContent = `共 ${apps.length} 个包含 HAP 的仓库，最后更新于 ${payload.generated_at || "-"}`;
         render();
       }).catch(error => {
         document.querySelector("#meta").innerHTML = `<span class="error">数据加载失败：${esc(error.message)}</span>`;
