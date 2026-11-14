@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T12:12:50+00:00",
-  "count": 36,
+  "generated_at": "2026-11-14T08:58:10+00:00",
+  "count": 37,
   "apps": [
     {
       "app_name": "kdevelop-ohos-artifacts",
@@ -17,7 +17,7 @@
       "repository_url": "https://github.com/Bailin-Love/CFLark-Harmony",
       "description": "CFLark（CFLark-Harmony）：鸿蒙 HarmonyOS NEXT 原生 Cloudflare 节点优选工具（ArkTS/ArkUI，Stage 模型）。TCP 初筛 → 数据中心识别 → 下载测速 → 加权排序，支持 IPv6、域名端到端校验、edgetunnel 订阅自动上传与网络诊断；提供 HAP/APP 安装包。",
       "license": "",
-      "stars": 29,
+      "stars": 30,
       "has_hap": true
     },
     {
@@ -26,7 +26,7 @@
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4516,
+      "stars": 4527,
       "has_hap": true
     },
     {
@@ -62,7 +62,7 @@
       "repository_url": "https://github.com/LMV475/hap-installer",
       "description": "在手机上为鸿蒙应用签名、安装与管理调试证书，无需 PC。",
       "license": "Apache-2.0",
-      "stars": 20,
+      "stars": 22,
       "has_hap": true
     },
     {
@@ -71,7 +71,7 @@
       "repository_url": "https://github.com/NaivG/bilimusic",
       "description": "基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器",
       "license": "AGPL-3.0",
-      "stars": 213,
+      "stars": 216,
       "has_hap": true
     },
     {
@@ -89,7 +89,7 @@
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
       "license": "GPL-3.0",
-      "stars": 15,
+      "stars": 17,
       "has_hap": true
     },
     {
@@ -111,12 +111,21 @@
       "has_hap": true
     },
     {
-      "app_name": "v2rayng-hos",
-      "repository": "ansun1714/v2rayng-hos",
-      "repository_url": "https://github.com/ansun1714/v2rayng-hos",
-      "description": "HarmonyOS 上的 v2rayNG 客户端：ArkTS UI + mihomo (Go) 内核 + NAPI 桥 + 系统 VPN 扩展。非官方项目，与 v2rayNG / mihomo 无隶属关系。",
+      "app_name": "v2raym-hos",
+      "repository": "ansun1714/v2raym-hos",
+      "repository_url": "https://github.com/ansun1714/v2raym-hos",
+      "description": "HarmonyOS 上的 V2rayM 客户端：ArkTS UI + mihomo (Go) 内核 + NAPI 桥 + 系统 VPN 扩展。非官方项目，与 v2rayNG / mihomo 无隶属关系。",
       "license": "GPL-3.0",
-      "stars": 1,
+      "stars": 2,
+      "has_hap": true
+    },
+    {
+      "app_name": "PiliNara",
+      "repository": "dev4harmony/PiliNara",
+      "repository_url": "https://github.com/dev4harmony/PiliNara",
+      "description": "PiliNara ported to HarmonyOS (ohos-Flutter). PiliPlus-based ohos platform layer merged into the PiliNara product codebase.",
+      "license": "GPL-3.0",
+      "stars": 66,
       "has_hap": true
     },
     {
@@ -152,7 +161,7 @@
       "repository_url": "https://github.com/harmony-on-android/HOA",
       "description": "Run OpenHarmony hap on Android",
       "license": "",
-      "stars": 822,
+      "stars": 823,
       "has_hap": true
     },
     {
@@ -170,7 +179,7 @@
       "repository_url": "https://github.com/jhaizhou-ops/d2r-mobile",
       "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
       "license": "MIT",
-      "stars": 5291,
+      "stars": 5298,
       "has_hap": true
     },
     {
@@ -187,6 +196,15 @@
       "repository": "kdada/mario-csharp",
       "repository_url": "https://github.com/kdada/mario-csharp",
       "description": "Super Mario Bros. study remake in Godot C#, with 32 stages and unsigned OpenHarmony HAP builds",
+      "license": "",
+      "stars": 0,
+      "has_hap": true
+    },
+    {
+      "app_name": "Fuxiaowai",
+      "repository": "kmmiku/Fuxiaowai",
+      "repository_url": "https://github.com/kmmiku/Fuxiaowai",
+      "description": "福小外-福州外语外贸学院课表软件",
       "license": "",
       "stars": 0,
       "has_hap": true
@@ -215,7 +233,7 @@
       "repository_url": "https://github.com/llnode/hmos-qwitter",
       "description": "Qwitter for HarmonyOS — HAP releases",
       "license": "",
-      "stars": 12,
+      "stars": 13,
       "has_hap": true
     },
     {
@@ -224,7 +242,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1291,
+      "stars": 1302,
       "has_hap": true
     },
     {
@@ -252,15 +270,6 @@
       "description": "📱 一个基于 HarmonyOS 平台的 Electron 应用程序包（HAP）项目模板，提供完整的工具链和示例代码，帮助开发者将 Electron 应用无缝移植到鸿蒙设备。支持悬浮窗、系统权限管理、多窗口协同等鸿蒙原生特性，内置调试工具和权限配置指南。",
       "license": "",
       "stars": 56,
-      "has_hap": true
-    },
-    {
-      "app_name": "Paws",
-      "repository": "richerfu/Paws",
-      "repository_url": "https://github.com/richerfu/Paws",
-      "description": "A Clash/mihomo OpenHarmony client with a native ArkUI interface, powered by meow-rs and a Rust userspace TUN stack.",
-      "license": "NOASSERTION",
-      "stars": 26,
       "has_hap": true
     },
     {
