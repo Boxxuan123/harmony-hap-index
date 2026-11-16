@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T09:25:06+00:00",
-  "count": 36,
+  "generated_at": "2026-11-16T09:42:30+00:00",
+  "count": 40,
   "apps": [
     {
       "app_name": "kdevelop-ohos-artifacts",
@@ -17,7 +17,7 @@
       "repository_url": "https://github.com/Bailin-Love/CFLark-Harmony",
       "description": "CFLark（CFLark-Harmony）：鸿蒙 HarmonyOS NEXT 原生 Cloudflare 节点优选工具（ArkTS/ArkUI，Stage 模型）。TCP 初筛 → 数据中心识别 → 下载测速 → 加权排序，支持 IPv6、域名端到端校验、edgetunnel 订阅自动上传与网络诊断；提供 HAP/APP 安装包。",
       "license": "",
-      "stars": 31,
+      "stars": 30,
       "has_hap": true
     },
     {
@@ -26,7 +26,7 @@
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4538,
+      "stars": 4540,
       "has_hap": true
     },
     {
@@ -48,15 +48,6 @@
       "has_hap": true
     },
     {
-      "app_name": "MLID-HarmonyOS",
-      "repository": "K-W7/MLID-HarmonyOS",
-      "repository_url": "https://github.com/K-W7/MLID-HarmonyOS",
-      "description": "时叙 MLID · 鸿蒙原生情绪日记（HarmonyOS / ArkTS）",
-      "license": "Apache-2.0",
-      "stars": 1,
-      "has_hap": true
-    },
-    {
       "app_name": "cc-haha-mobile-for-harmony",
       "repository": "KOTMMMMM/cc-haha-mobile-for-harmony",
       "repository_url": "https://github.com/KOTMMMMM/cc-haha-mobile-for-harmony",
@@ -75,12 +66,21 @@
       "has_hap": true
     },
     {
+      "app_name": "Bika-HarmonyOS",
+      "repository": "LoMoCatAp/Bika-HarmonyOS",
+      "repository_url": "https://github.com/LoMoCatAp/Bika-HarmonyOS",
+      "description": "鸿蒙原生哔咔客户端",
+      "license": "GPL-3.0",
+      "stars": 74,
+      "has_hap": true
+    },
+    {
       "app_name": "bilimusic",
       "repository": "NaivG/bilimusic",
       "repository_url": "https://github.com/NaivG/bilimusic",
       "description": "基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器",
       "license": "AGPL-3.0",
-      "stars": 219,
+      "stars": 224,
       "has_hap": true
     },
     {
@@ -93,12 +93,21 @@
       "has_hap": true
     },
     {
+      "app_name": "turbo-ai-chat-harmonyos",
+      "repository": "Torry2022/turbo-ai-chat-harmonyos",
+      "repository_url": "https://github.com/Torry2022/turbo-ai-chat-harmonyos",
+      "description": "Multi-model native LLM chat for HarmonyOS NEXT with MNN Runtime.",
+      "license": "Apache-2.0",
+      "stars": 1,
+      "has_hap": true
+    },
+    {
       "app_name": "ArkClash",
       "repository": "VOD-Studio/ArkClash",
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
       "license": "GPL-3.0",
-      "stars": 16,
+      "stars": 21,
       "has_hap": true
     },
     {
@@ -107,7 +116,7 @@
       "repository_url": "https://github.com/YuriLin1028/LxMine",
       "description": "LxMine：融合 LX Music 音源与 Mineradio 沉浸视觉的跨端音乐播放器（Windows / HarmonyOS）",
       "license": "GPL-3.0",
-      "stars": 0,
+      "stars": 15,
       "has_hap": true
     },
     {
@@ -138,15 +147,6 @@
       "has_hap": true
     },
     {
-      "app_name": "PiliNara",
-      "repository": "dev4harmony/PiliNara",
-      "repository_url": "https://github.com/dev4harmony/PiliNara",
-      "description": "PiliNara ported to HarmonyOS (ohos-Flutter). PiliPlus-based ohos platform layer merged into the PiliNara product codebase.",
-      "license": "GPL-3.0",
-      "stars": 67,
-      "has_hap": true
-    },
-    {
       "app_name": "Amane-Harmony",
       "repository": "dogmicats/Amane-Harmony",
       "repository_url": "https://github.com/dogmicats/Amane-Harmony",
@@ -165,12 +165,12 @@
       "has_hap": true
     },
     {
-      "app_name": "MindustryArk",
-      "repository": "haohandc/MindustryArk",
-      "repository_url": "https://github.com/haohandc/MindustryArk",
-      "description": "一款鸿蒙版Mindustry启动器 | A launcher that runs Mindustry on HarmonyOS NEXT & OpenHarmony",
+      "app_name": "lvlian-view-hm",
+      "repository": "fhf2022/lvlian-view-hm",
+      "repository_url": "https://github.com/fhf2022/lvlian-view-hm",
+      "description": "联文件｜基于 ArkTS / ArkUI 的 HarmonyOS NEXT 第三方绿联 NAS 文件管理器，支持图片浏览、图库文件夹批量上传、断点续传与后台传输通知。",
       "license": "",
-      "stars": 8,
+      "stars": 3,
       "has_hap": true
     },
     {
@@ -210,15 +210,6 @@
       "has_hap": true
     },
     {
-      "app_name": "Fuxiaowai",
-      "repository": "kmmiku/Fuxiaowai",
-      "repository_url": "https://github.com/kmmiku/Fuxiaowai",
-      "description": "福小外 · 福州外语外贸学院课表软件 ｜ HarmonyOS 鸿蒙版 0.1.1，Android 版预留",
-      "license": "",
-      "stars": 0,
-      "has_hap": true
-    },
-    {
       "app_name": "Clash-Mate-for-HarmonyOS",
       "repository": "levinrinco/Clash-Mate-for-HarmonyOS",
       "repository_url": "https://github.com/levinrinco/Clash-Mate-for-HarmonyOS",
@@ -242,7 +233,7 @@
       "repository_url": "https://github.com/llnode/hmos-qwitter",
       "description": "Qwitter for HarmonyOS — HAP releases",
       "license": "",
-      "stars": 16,
+      "stars": 18,
       "has_hap": true
     },
     {
@@ -251,7 +242,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1311,
+      "stars": 1328,
       "has_hap": true
     },
     {
@@ -282,6 +273,51 @@
       "has_hap": true
     },
     {
+      "app_name": "gridcraft-hmos",
+      "repository": "shaliuxin/gridcraft-hmos",
+      "repository_url": "https://github.com/shaliuxin/gridcraft-hmos",
+      "description": "GridCraft (Rust + egui spreadsheet) ported to HarmonyOS: ArkTS + C++ N-API + Rust, wgpu GLES, dual-ABI .hap.",
+      "license": "Apache-2.0",
+      "stars": 0,
+      "has_hap": true
+    },
+    {
+      "app_name": "pdfcraft-hmos",
+      "repository": "shaliuxin/pdfcraft-hmos",
+      "repository_url": "https://github.com/shaliuxin/pdfcraft-hmos",
+      "description": "PdfCraft 鸿蒙 (HarmonyOS NEXT) 移植版 — 纯 Rust PDF 阅读器，基于 storytold/pdfcraft。Rust staticlib → C++ NAPI → ArkTS UI → 签名 HAP。",
+      "license": "Apache-2.0",
+      "stars": 0,
+      "has_hap": true
+    },
+    {
+      "app_name": "rustdesk-hmos",
+      "repository": "shaliuxin/rustdesk-hmos",
+      "repository_url": "https://github.com/shaliuxin/rustdesk-hmos",
+      "description": "RustDesk (open-source remote desktop) ported to HarmonyOS: ArkTS UI + C++ N-API + Rust core, master + host, dual-ABI .hap.",
+      "license": "AGPL-3.0",
+      "stars": 0,
+      "has_hap": true
+    },
+    {
+      "app_name": "solidcraft-hmos",
+      "repository": "shaliuxin/solidcraft-hmos",
+      "repository_url": "https://github.com/shaliuxin/solidcraft-hmos",
+      "description": "SolidCraft (Rust + egui CAD kernel) ported to HarmonyOS: DevEco project, ArkTS + C++ N-API bridge + Rust adaptation layer, wgpu GLES, dual-ABI .hap.",
+      "license": "NOASSERTION",
+      "stars": 0,
+      "has_hap": true
+    },
+    {
+      "app_name": "wordcraft-hmos",
+      "repository": "shaliuxin/wordcraft-hmos",
+      "repository_url": "https://github.com/shaliuxin/wordcraft-hmos",
+      "description": "WordCraft (Rust + egui document engine) ported to HarmonyOS: DevEco project, ArkTS + C++ N-API bridge + Rust adaptation layer, dual-ABI .hap.",
+      "license": "",
+      "stars": 0,
+      "has_hap": true
+    },
+    {
       "app_name": "openjiuwen-ohos-port",
       "repository": "shihuan1999/openjiuwen-ohos-port",
       "repository_url": "https://github.com/shihuan1999/openjiuwen-ohos-port",
@@ -309,21 +345,21 @@
       "has_hap": true
     },
     {
-      "app_name": "HarmoTail-Releases",
-      "repository": "wuwu888/HarmoTail-Releases",
-      "repository_url": "https://github.com/wuwu888/HarmoTail-Releases",
-      "description": "HarmoTail - Tailscale for HarmonyOS NEXT / 鸿蒙 Tailscale / 鸿蒙版 Tailscale 客户端",
-      "license": "",
-      "stars": 17,
-      "has_hap": true
-    },
-    {
       "app_name": "NekoBox4Harmony",
       "repository": "xiaoli8571/NekoBox4Harmony",
       "repository_url": "https://github.com/xiaoli8571/NekoBox4Harmony",
       "description": "NekoBox-style VPN client for HarmonyOS NEXT; in-process sing-box 1.11.9 c-shared core (Hysteria2/TUIC), clone-and-build unsigned HAP",
       "license": "",
       "stars": 81,
+      "has_hap": true
+    },
+    {
+      "app_name": "Tesslo",
+      "repository": "yuanbaobaoo/Tesslo",
+      "repository_url": "https://github.com/yuanbaobaoo/Tesslo",
+      "description": "Tesslo 是一个以 Scratch3 为核心、面向 HarmonyOS 平台的积木编程桌面应用。",
+      "license": "AGPL-3.0",
+      "stars": 1,
       "has_hap": true
     }
   ]
