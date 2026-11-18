@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T10:44:01+00:00",
-  "count": 41,
+  "generated_at": "2026-11-18T10:09:33+00:00",
+  "count": 40,
   "apps": [
     {
       "app_name": "kdevelop-ohos-artifacts",
@@ -9,6 +9,15 @@
       "description": "KDevelop for HarmonyOS PC - HAP build artifacts (releases only; source: atomgit.com/jumping_ggjjkk/kdevelop-ohos)",
       "license": "",
       "stars": 0,
+      "has_hap": true
+    },
+    {
+      "app_name": "DeepSeekGo-Harmony",
+      "repository": "APXS114514/DeepSeekGo-Harmony",
+      "repository_url": "https://github.com/APXS114514/DeepSeekGo-Harmony",
+      "description": "基于 DeepSeek 官方 Chat Demo 开发的第三方 HarmonyOS 客户端，支持系统语音输入、图片识字和系统分享。",
+      "license": "MIT",
+      "stars": 1,
       "has_hap": true
     },
     {
@@ -26,7 +35,7 @@
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4563,
+      "stars": 4644,
       "has_hap": true
     },
     {
@@ -48,15 +57,6 @@
       "has_hap": true
     },
     {
-      "app_name": "cc-haha-mobile-for-harmony",
-      "repository": "KOTMMMMM/cc-haha-mobile-for-harmony",
-      "repository_url": "https://github.com/KOTMMMMM/cc-haha-mobile-for-harmony",
-      "description": "HarmonyOS NEXT client for Claude Code (cc-haha): streaming chat, tool permissions, built-in Tailscale VPN. ArkTS + NAPI/Go.",
-      "license": "MIT",
-      "stars": 0,
-      "has_hap": true
-    },
-    {
       "app_name": "hap-installer",
       "repository": "LMV475/hap-installer",
       "repository_url": "https://github.com/LMV475/hap-installer",
@@ -71,7 +71,16 @@
       "repository_url": "https://github.com/NaivG/bilimusic",
       "description": "基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器",
       "license": "AGPL-3.0",
-      "stars": 226,
+      "stars": 227,
+      "has_hap": true
+    },
+    {
+      "app_name": "PiliPro",
+      "repository": "Oearawa/PiliPro",
+      "repository_url": "https://github.com/Oearawa/PiliPro",
+      "description": "基于 PiliPlus 适配的鸿蒙版（HarmonyOS NEXT）第三方客户端，内置多线程拉流加速，提升高码率视频加载与拖动体验。",
+      "license": "GPL-3.0",
+      "stars": 0,
       "has_hap": true
     },
     {
@@ -98,7 +107,7 @@
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
       "license": "GPL-3.0",
-      "stars": 22,
+      "stars": 23,
       "has_hap": true
     },
     {
@@ -108,6 +117,15 @@
       "description": "FMusic HarmonyOS 音乐播放器 · 完整源码、版本说明与 HAP 下载",
       "license": "AGPL-3.0",
       "stars": 5,
+      "has_hap": true
+    },
+    {
+      "app_name": "Wake-HarmonyOS",
+      "repository": "azhuge233/Wake-HarmonyOS",
+      "repository_url": "https://github.com/azhuge233/Wake-HarmonyOS",
+      "description": "Wake-on-LAN on HarmonyOS NEXT",
+      "license": "",
+      "stars": 0,
       "has_hap": true
     },
     {
@@ -125,7 +143,7 @@
       "repository_url": "https://github.com/dogmicats/Amane-Harmony",
       "description": "非官方 HarmonyOS 原生客户端，面向自建 JAV 媒体库（Amane）：番号检索、演员/共演组合筛选、分类浏览、收藏续播、mpv 硬解播放与外挂字幕；配套轻量 Python 旁挂服务，通过块缓存与并行预取优化网盘及冷区资源播放。Unofficial HarmonyOS (ArkUI + mpv) client for self-hosted Amane JAV media library.",
       "license": "MIT",
-      "stars": 1,
+      "stars": 3,
       "has_hap": true
     },
     {
@@ -165,15 +183,6 @@
       "has_hap": true
     },
     {
-      "app_name": "d2r-mobile",
-      "repository": "jhaizhou-ops/d2r-mobile",
-      "repository_url": "https://github.com/jhaizhou-ops/d2r-mobile",
-      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
-      "license": "MIT",
-      "stars": 5331,
-      "has_hap": true
-    },
-    {
       "app_name": "crystal-wastes",
       "repository": "kdada/crystal-wastes",
       "repository_url": "https://github.com/kdada/crystal-wastes",
@@ -187,15 +196,6 @@
       "repository": "kdada/mario-csharp",
       "repository_url": "https://github.com/kdada/mario-csharp",
       "description": "Super Mario Bros. study remake in Godot C#, with 32 stages and unsigned OpenHarmony HAP builds",
-      "license": "",
-      "stars": 0,
-      "has_hap": true
-    },
-    {
-      "app_name": "Fuxiaowai",
-      "repository": "kmmiku/Fuxiaowai",
-      "repository_url": "https://github.com/kmmiku/Fuxiaowai",
-      "description": "福小外 · 福州外语外贸学院课表软件 ｜ HarmonyOS 鸿蒙版 0.1.1，Android 版预留",
       "license": "",
       "stars": 0,
       "has_hap": true
@@ -224,7 +224,7 @@
       "repository_url": "https://github.com/llnode/hmos-qwitter",
       "description": "Qwitter for HarmonyOS — HAP releases",
       "license": "",
-      "stars": 20,
+      "stars": 22,
       "has_hap": true
     },
     {
@@ -233,7 +233,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1342,
+      "stars": 1361,
       "has_hap": true
     },
     {
@@ -242,7 +242,7 @@
       "repository_url": "https://github.com/muleos/BYKEY-release",
       "description": "BY KEY｜鸿蒙手机端比亚迪蓝牙数字钥匙 App（沿用官方手表钥匙授权通道）。只发安装包，仅提供 HAP。",
       "license": "",
-      "stars": 3,
+      "stars": 4,
       "has_hap": true
     },
     {
@@ -261,15 +261,6 @@
       "description": "📱 一个基于 HarmonyOS 平台的 Electron 应用程序包（HAP）项目模板，提供完整的工具链和示例代码，帮助开发者将 Electron 应用无缝移植到鸿蒙设备。支持悬浮窗、系统权限管理、多窗口协同等鸿蒙原生特性，内置调试工具和权限配置指南。",
       "license": "",
       "stars": 56,
-      "has_hap": true
-    },
-    {
-      "app_name": "Paws",
-      "repository": "richerfu/Paws",
-      "repository_url": "https://github.com/richerfu/Paws",
-      "description": "A Clash/mihomo OpenHarmony client with a native ArkUI interface, powered by meow-rs and a Rust userspace TUN stack.",
-      "license": "NOASSERTION",
-      "stars": 29,
       "has_hap": true
     },
     {
@@ -336,21 +327,21 @@
       "has_hap": true
     },
     {
+      "app_name": "HandySend",
+      "repository": "springtwr/HandySend",
+      "repository_url": "https://github.com/springtwr/HandySend",
+      "description": "鸿蒙跨设备文件传输应用，兼容 LocalSend 协议与互传联盟（MTA）",
+      "license": "Apache-2.0",
+      "stars": 3,
+      "has_hap": true
+    },
+    {
       "app_name": "Breeze-ohos",
       "repository": "tianmeng-xiu/Breeze-ohos",
       "repository_url": "https://github.com/tianmeng-xiu/Breeze-ohos",
       "description": "HarmonyOS / OpenHarmony 原生漫画阅读器：ArkTS 应用 + Rust 编写的 QuickJS 插件引擎，移植自 Flutter 版 Breeze。",
       "license": "GPL-3.0",
       "stars": 1,
-      "has_hap": true
-    },
-    {
-      "app_name": "Android-SSH-Codex",
-      "repository": "wkj2333666/Android-SSH-Codex",
-      "repository_url": "https://github.com/wkj2333666/Android-SSH-Codex",
-      "description": "Codex Desktop-style mobile UI that securely controls remote Codex over SSH on Android and OpenHarmony",
-      "license": "MIT",
-      "stars": 4,
       "has_hap": true
     },
     {
