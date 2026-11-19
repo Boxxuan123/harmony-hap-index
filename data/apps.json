@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T10:09:33+00:00",
-  "count": 40,
+  "generated_at": "2026-11-19T10:20:14+00:00",
+  "count": 41,
   "apps": [
     {
       "app_name": "kdevelop-ohos-artifacts",
@@ -17,7 +17,7 @@
       "repository_url": "https://github.com/APXS114514/DeepSeekGo-Harmony",
       "description": "基于 DeepSeek 官方 Chat Demo 开发的第三方 HarmonyOS 客户端，支持系统语音输入、图片识字和系统分享。",
       "license": "MIT",
-      "stars": 1,
+      "stars": 3,
       "has_hap": true
     },
     {
@@ -35,7 +35,7 @@
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4644,
+      "stars": 4673,
       "has_hap": true
     },
     {
@@ -45,6 +45,15 @@
       "description": "幻瞳界域 · HarmonyOS 全景与 HDR 视频播放器 · HAP 下载与版本更新日志",
       "license": "",
       "stars": 1,
+      "has_hap": true
+    },
+    {
+      "app_name": "t3code-harmony",
+      "repository": "EwhenJoo/t3code-harmony",
+      "repository_url": "https://github.com/EwhenJoo/t3code-harmony",
+      "description": "Unofficial native HarmonyOS client for T3 Code (ArkTS / ArkUI) · T3 Code 鸿蒙原生客户端",
+      "license": "MIT",
+      "stars": 0,
       "has_hap": true
     },
     {
@@ -71,7 +80,16 @@
       "repository_url": "https://github.com/NaivG/bilimusic",
       "description": "基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器",
       "license": "AGPL-3.0",
-      "stars": 227,
+      "stars": 231,
+      "has_hap": true
+    },
+    {
+      "app_name": "GreePlus-Global-OHOS",
+      "repository": "Oearawa/GreePlus-Global-OHOS",
+      "repository_url": "https://github.com/Oearawa/GreePlus-Global-OHOS",
+      "description": "",
+      "license": "MIT",
+      "stars": 0,
       "has_hap": true
     },
     {
@@ -80,7 +98,16 @@
       "repository_url": "https://github.com/Oearawa/PiliPro",
       "description": "基于 PiliPlus 适配的鸿蒙版（HarmonyOS NEXT）第三方客户端，内置多线程拉流加速，提升高码率视频加载与拖动体验。",
       "license": "GPL-3.0",
-      "stars": 0,
+      "stars": 1,
+      "has_hap": true
+    },
+    {
+      "app_name": "dsh-harmonyos-pc",
+      "repository": "QinpanWan/dsh-harmonyos-pc",
+      "repository_url": "https://github.com/QinpanWan/dsh-harmonyos-pc",
+      "description": "让 DeepSeek Harness(dsh) 在 HarmonyOS 完整跑起来：缓存优化对话预设 + 启动补丁 + 工具链 + 鸿蒙桌面/平板端客户端，node 不锁版本（最新线 Node 26.10.0、LTS 24.21.0） | Run DeepSeek Harness (dsh) on HarmonyOS: presets, patches, tooling & native desktop/tablet clients; node not pinned (latest line 26.10.0 / LTS 24.21.0)",
+      "license": "MIT",
+      "stars": 41,
       "has_hap": true
     },
     {
@@ -93,21 +120,12 @@
       "has_hap": true
     },
     {
-      "app_name": "turbo-ai-chat-harmonyos",
-      "repository": "Torry2022/turbo-ai-chat-harmonyos",
-      "repository_url": "https://github.com/Torry2022/turbo-ai-chat-harmonyos",
-      "description": "Multi-model native LLM chat for HarmonyOS NEXT with MNN Runtime.",
-      "license": "Apache-2.0",
-      "stars": 1,
-      "has_hap": true
-    },
-    {
       "app_name": "ArkClash",
       "repository": "VOD-Studio/ArkClash",
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
       "license": "GPL-3.0",
-      "stars": 23,
+      "stars": 24,
       "has_hap": true
     },
     {
@@ -117,15 +135,6 @@
       "description": "FMusic HarmonyOS 音乐播放器 · 完整源码、版本说明与 HAP 下载",
       "license": "AGPL-3.0",
       "stars": 5,
-      "has_hap": true
-    },
-    {
-      "app_name": "Wake-HarmonyOS",
-      "repository": "azhuge233/Wake-HarmonyOS",
-      "repository_url": "https://github.com/azhuge233/Wake-HarmonyOS",
-      "description": "Wake-on-LAN on HarmonyOS NEXT",
-      "license": "",
-      "stars": 0,
       "has_hap": true
     },
     {
@@ -161,7 +170,7 @@
       "repository_url": "https://github.com/harmony-on-android/HOA",
       "description": "Run OpenHarmony hap on Android",
       "license": "",
-      "stars": 824,
+      "stars": 826,
       "has_hap": true
     },
     {
@@ -215,7 +224,7 @@
       "repository_url": "https://github.com/llnode/Qly-Mail",
       "description": "Qly 巧理 · 原生 HarmonyOS AI 邮件客户端 · 未签名 HAP 发布仓库",
       "license": "",
-      "stars": 4,
+      "stars": 5,
       "has_hap": true
     },
     {
@@ -224,7 +233,7 @@
       "repository_url": "https://github.com/llnode/hmos-qwitter",
       "description": "Qwitter for HarmonyOS — HAP releases",
       "license": "",
-      "stars": 22,
+      "stars": 23,
       "has_hap": true
     },
     {
@@ -233,7 +242,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1361,
+      "stars": 1387,
       "has_hap": true
     },
     {
@@ -327,15 +336,6 @@
       "has_hap": true
     },
     {
-      "app_name": "HandySend",
-      "repository": "springtwr/HandySend",
-      "repository_url": "https://github.com/springtwr/HandySend",
-      "description": "鸿蒙跨设备文件传输应用，兼容 LocalSend 协议与互传联盟（MTA）",
-      "license": "Apache-2.0",
-      "stars": 3,
-      "has_hap": true
-    },
-    {
       "app_name": "Breeze-ohos",
       "repository": "tianmeng-xiu/Breeze-ohos",
       "repository_url": "https://github.com/tianmeng-xiu/Breeze-ohos",
@@ -345,12 +345,21 @@
       "has_hap": true
     },
     {
+      "app_name": "Android-SSH-Codex",
+      "repository": "wkj2333666/Android-SSH-Codex",
+      "repository_url": "https://github.com/wkj2333666/Android-SSH-Codex",
+      "description": "Codex Desktop-style mobile UI that securely controls remote Codex over SSH on Android and OpenHarmony",
+      "license": "MIT",
+      "stars": 4,
+      "has_hap": true
+    },
+    {
       "app_name": "NekoBox4Harmony",
       "repository": "xiaoli8571/NekoBox4Harmony",
       "repository_url": "https://github.com/xiaoli8571/NekoBox4Harmony",
       "description": "NekoBox-style VPN client for HarmonyOS NEXT; in-process sing-box 1.11.9 c-shared core (Hysteria2/TUIC), clone-and-build unsigned HAP",
       "license": "",
-      "stars": 82,
+      "stars": 83,
       "has_hap": true
     },
     {
