@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T10:20:14+00:00",
-  "count": 41,
+  "generated_at": "2026-11-20T10:00:36+00:00",
+  "count": 44,
   "apps": [
     {
       "app_name": "kdevelop-ohos-artifacts",
@@ -35,7 +35,7 @@
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4673,
+      "stars": 4688,
       "has_hap": true
     },
     {
@@ -57,12 +57,21 @@
       "has_hap": true
     },
     {
+      "app_name": "saltline-harmonyos",
+      "repository": "Faster-001/saltline-harmonyos",
+      "repository_url": "https://github.com/Faster-001/saltline-harmonyos",
+      "description": "Saltline game for HarmonyOS",
+      "license": "",
+      "stars": 1,
+      "has_hap": true
+    },
+    {
       "app_name": "Pokemon-SA-for-HarmonyOS",
       "repository": "GoodNima/Pokemon-SA-for-HarmonyOS",
       "repository_url": "https://github.com/GoodNima/Pokemon-SA-for-HarmonyOS",
       "description": "鸿蒙原生移植版宝可梦SA，基于PC原版，本仓库仅发布hap安装包。",
       "license": "",
-      "stars": 7,
+      "stars": 8,
       "has_hap": true
     },
     {
@@ -75,30 +84,21 @@
       "has_hap": true
     },
     {
+      "app_name": "amcl",
+      "repository": "LZZLHY/amcl",
+      "repository_url": "https://github.com/LZZLHY/amcl",
+      "description": "AMCL — 首款鸿蒙版全量Java版我的世界启动器",
+      "license": "GPL-3.0",
+      "stars": 127,
+      "has_hap": true
+    },
+    {
       "app_name": "bilimusic",
       "repository": "NaivG/bilimusic",
       "repository_url": "https://github.com/NaivG/bilimusic",
       "description": "基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器",
       "license": "AGPL-3.0",
-      "stars": 231,
-      "has_hap": true
-    },
-    {
-      "app_name": "GreePlus-Global-OHOS",
-      "repository": "Oearawa/GreePlus-Global-OHOS",
-      "repository_url": "https://github.com/Oearawa/GreePlus-Global-OHOS",
-      "description": "",
-      "license": "MIT",
-      "stars": 0,
-      "has_hap": true
-    },
-    {
-      "app_name": "PiliPro",
-      "repository": "Oearawa/PiliPro",
-      "repository_url": "https://github.com/Oearawa/PiliPro",
-      "description": "基于 PiliPlus 适配的鸿蒙版（HarmonyOS NEXT）第三方客户端，内置多线程拉流加速，提升高码率视频加载与拖动体验。",
-      "license": "GPL-3.0",
-      "stars": 1,
+      "stars": 232,
       "has_hap": true
     },
     {
@@ -124,6 +124,15 @@
       "repository": "VOD-Studio/ArkClash",
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
+      "license": "GPL-3.0",
+      "stars": 25,
+      "has_hap": true
+    },
+    {
+      "app_name": "LxMine",
+      "repository": "YuriLin1028/LxMine",
+      "repository_url": "https://github.com/YuriLin1028/LxMine",
+      "description": "LxMine：融合 LX Music 音源与 Mineradio 沉浸视觉的跨端音乐播放器（Windows / HarmonyOS）",
       "license": "GPL-3.0",
       "stars": 24,
       "has_hap": true
@@ -170,7 +179,7 @@
       "repository_url": "https://github.com/harmony-on-android/HOA",
       "description": "Run OpenHarmony hap on Android",
       "license": "",
-      "stars": 826,
+      "stars": 828,
       "has_hap": true
     },
     {
@@ -215,7 +224,7 @@
       "repository_url": "https://github.com/levinrinco/Clash-Mate-for-HarmonyOS",
       "description": "HarmonyOS 原生 Clash 客户端，基于 mihomo。IPv4/IPv6 双栈，支持桌面卡片、长时任务保活、实况窗、订阅与节点测速；Releases 提供未签名 HAP。",
       "license": "GPL-3.0",
-      "stars": 25,
+      "stars": 28,
       "has_hap": true
     },
     {
@@ -242,7 +251,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1387,
+      "stars": 1405,
       "has_hap": true
     },
     {
@@ -332,7 +341,7 @@
       "repository_url": "https://github.com/snoworwind/pocket-harness-ohos",
       "description": "DeepSeek Harness 的 HarmonyOS 原生版：官方 Web GUI + IEC 原生执行核 + libvterm 终端",
       "license": "MIT",
-      "stars": 1,
+      "stars": 2,
       "has_hap": true
     },
     {
@@ -359,7 +368,16 @@
       "repository_url": "https://github.com/xiaoli8571/NekoBox4Harmony",
       "description": "NekoBox-style VPN client for HarmonyOS NEXT; in-process sing-box 1.11.9 c-shared core (Hysteria2/TUIC), clone-and-build unsigned HAP",
       "license": "",
-      "stars": 83,
+      "stars": 86,
+      "has_hap": true
+    },
+    {
+      "app_name": "TunBox",
+      "repository": "xiaoli8571/TunBox",
+      "repository_url": "https://github.com/xiaoli8571/TunBox",
+      "description": "TunBox 的 HarmonyOS NEXT 客户端：基于 mihomo 内核的原生代理工具，支持订阅、应用/网站分流、规则与节点测速。",
+      "license": "",
+      "stars": 106,
       "has_hap": true
     },
     {
@@ -369,6 +387,15 @@
       "description": "Tesslo 是一个以 Scratch3 为核心、面向 HarmonyOS 平台的积木编程桌面应用。",
       "license": "AGPL-3.0",
       "stars": 1,
+      "has_hap": true
+    },
+    {
+      "app_name": "istore-pilot",
+      "repository": "zifeng-chen/istore-pilot",
+      "repository_url": "https://github.com/zifeng-chen/istore-pilot",
+      "description": "iStoreOS 路由管理全家桶：路由器 Python Agent + Android / HarmonyOS / iOS 三端原生客户端 + 浏览器控制台",
+      "license": "MIT",
+      "stars": 2,
       "has_hap": true
     }
   ]
