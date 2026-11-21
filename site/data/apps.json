@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T10:00:36+00:00",
-  "count": 44,
+  "generated_at": "2026-11-21T09:50:09+00:00",
+  "count": 45,
   "apps": [
     {
       "app_name": "kdevelop-ohos-artifacts",
@@ -26,7 +26,7 @@
       "repository_url": "https://github.com/Bailin-Love/CFLark-Harmony",
       "description": "CFLark（CFLark-Harmony）：鸿蒙 HarmonyOS NEXT 原生 Cloudflare 节点优选工具（ArkTS/ArkUI，Stage 模型）。TCP 初筛 → 数据中心识别 → 下载测速 → 加权排序，支持 IPv6、域名端到端校验、edgetunnel 订阅自动上传与网络诊断；提供 HAP/APP 安装包。",
       "license": "",
-      "stars": 32,
+      "stars": 33,
       "has_hap": true
     },
     {
@@ -35,7 +35,7 @@
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4688,
+      "stars": 4704,
       "has_hap": true
     },
     {
@@ -57,12 +57,12 @@
       "has_hap": true
     },
     {
-      "app_name": "saltline-harmonyos",
-      "repository": "Faster-001/saltline-harmonyos",
-      "repository_url": "https://github.com/Faster-001/saltline-harmonyos",
-      "description": "Saltline game for HarmonyOS",
-      "license": "",
-      "stars": 1,
+      "app_name": "dbx-ohos",
+      "repository": "GetZ110/dbx-ohos",
+      "repository_url": "https://github.com/GetZ110/dbx-ohos",
+      "description": "DBX 数据库客户端在 HarmonyOS 上的移植工程：ArkUI Web + Rust NAPI 内嵌 dbx-web，支持 tablet / 2in1。",
+      "license": "Apache-2.0",
+      "stars": 8,
       "has_hap": true
     },
     {
@@ -84,21 +84,12 @@
       "has_hap": true
     },
     {
-      "app_name": "amcl",
-      "repository": "LZZLHY/amcl",
-      "repository_url": "https://github.com/LZZLHY/amcl",
-      "description": "AMCL — 首款鸿蒙版全量Java版我的世界启动器",
-      "license": "GPL-3.0",
-      "stars": 127,
-      "has_hap": true
-    },
-    {
       "app_name": "bilimusic",
       "repository": "NaivG/bilimusic",
       "repository_url": "https://github.com/NaivG/bilimusic",
       "description": "基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器",
       "license": "AGPL-3.0",
-      "stars": 232,
+      "stars": 235,
       "has_hap": true
     },
     {
@@ -125,16 +116,16 @@
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
       "license": "GPL-3.0",
-      "stars": 25,
+      "stars": 27,
       "has_hap": true
     },
     {
-      "app_name": "LxMine",
-      "repository": "YuriLin1028/LxMine",
-      "repository_url": "https://github.com/YuriLin1028/LxMine",
-      "description": "LxMine：融合 LX Music 音源与 Mineradio 沉浸视觉的跨端音乐播放器（Windows / HarmonyOS）",
-      "license": "GPL-3.0",
-      "stars": 24,
+      "app_name": "njuschedule-hmos",
+      "repository": "WheretoSleepinNJU/njuschedule-hmos",
+      "repository_url": "https://github.com/WheretoSleepinNJU/njuschedule-hmos",
+      "description": "呢喃课表（NJU Schedule NEXT）—— 南哪课表 App 的 HarmonyOS / ArkTS 原生重写版",
+      "license": "Apache-2.0",
+      "stars": 1,
       "has_hap": true
     },
     {
@@ -153,6 +144,15 @@
       "description": "Blender 4.5.16 LTS on HarmonyOS — HAP shell, DSHM plugin, OHOS patches, headless worker PoC",
       "license": "NOASSERTION",
       "stars": 0,
+      "has_hap": true
+    },
+    {
+      "app_name": "PiliNara",
+      "repository": "dev4harmony/PiliNara",
+      "repository_url": "https://github.com/dev4harmony/PiliNara",
+      "description": "PiliNara ported to HarmonyOS (ohos-Flutter). PiliPlus-based ohos platform layer merged into the PiliNara product codebase.",
+      "license": "GPL-3.0",
+      "stars": 76,
       "has_hap": true
     },
     {
@@ -201,6 +201,15 @@
       "has_hap": true
     },
     {
+      "app_name": "d2r-mobile",
+      "repository": "jhaizhou-ops/d2r-mobile",
+      "repository_url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
+      "license": "MIT",
+      "stars": 5354,
+      "has_hap": true
+    },
+    {
       "app_name": "crystal-wastes",
       "repository": "kdada/crystal-wastes",
       "repository_url": "https://github.com/kdada/crystal-wastes",
@@ -224,7 +233,7 @@
       "repository_url": "https://github.com/levinrinco/Clash-Mate-for-HarmonyOS",
       "description": "HarmonyOS 原生 Clash 客户端，基于 mihomo。IPv4/IPv6 双栈，支持桌面卡片、长时任务保活、实况窗、订阅与节点测速；Releases 提供未签名 HAP。",
       "license": "GPL-3.0",
-      "stars": 28,
+      "stars": 29,
       "has_hap": true
     },
     {
@@ -242,7 +251,7 @@
       "repository_url": "https://github.com/llnode/hmos-qwitter",
       "description": "Qwitter for HarmonyOS — HAP releases",
       "license": "",
-      "stars": 23,
+      "stars": 26,
       "has_hap": true
     },
     {
@@ -251,7 +260,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1405,
+      "stars": 1417,
       "has_hap": true
     },
     {
@@ -363,21 +372,21 @@
       "has_hap": true
     },
     {
+      "app_name": "ClipboardMerger",
+      "repository": "xiaobailong/ClipboardMerger",
+      "repository_url": "https://github.com/xiaobailong/ClipboardMerger",
+      "description": "ClipboardMerger (JianJi) is a free, non-commercial open-source clipboard merging tool for Android and HarmonyOS.",
+      "license": "MIT",
+      "stars": 0,
+      "has_hap": true
+    },
+    {
       "app_name": "NekoBox4Harmony",
       "repository": "xiaoli8571/NekoBox4Harmony",
       "repository_url": "https://github.com/xiaoli8571/NekoBox4Harmony",
       "description": "NekoBox-style VPN client for HarmonyOS NEXT; in-process sing-box 1.11.9 c-shared core (Hysteria2/TUIC), clone-and-build unsigned HAP",
       "license": "",
       "stars": 86,
-      "has_hap": true
-    },
-    {
-      "app_name": "TunBox",
-      "repository": "xiaoli8571/TunBox",
-      "repository_url": "https://github.com/xiaoli8571/TunBox",
-      "description": "TunBox 的 HarmonyOS NEXT 客户端：基于 mihomo 内核的原生代理工具，支持订阅、应用/网站分流、规则与节点测速。",
-      "license": "",
-      "stars": 106,
       "has_hap": true
     },
     {
@@ -395,7 +404,7 @@
       "repository_url": "https://github.com/zifeng-chen/istore-pilot",
       "description": "iStoreOS 路由管理全家桶：路由器 Python Agent + Android / HarmonyOS / iOS 三端原生客户端 + 浏览器控制台",
       "license": "MIT",
-      "stars": 2,
+      "stars": 3,
       "has_hap": true
     }
   ]
