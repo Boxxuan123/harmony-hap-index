@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T09:46:02+00:00",
-  "count": 48,
+  "generated_at": "2026-11-23T10:45:53+00:00",
+  "count": 47,
   "apps": [
     {
       "app_name": "kdevelop-ohos-artifacts",
@@ -9,6 +9,15 @@
       "description": "KDevelop for HarmonyOS PC - HAP build artifacts (releases only; source: atomgit.com/jumping_ggjjkk/kdevelop-ohos)",
       "license": "",
       "stars": 0,
+      "has_hap": true
+    },
+    {
+      "app_name": "DeepSeekGo-Harmony",
+      "repository": "APXS114514/DeepSeekGo-Harmony",
+      "repository_url": "https://github.com/APXS114514/DeepSeekGo-Harmony",
+      "description": "基于 DeepSeek 官方 Chat Demo 开发的第三方 HarmonyOS 客户端，支持系统语音输入、图片识字和系统分享。",
+      "license": "MIT",
+      "stars": 3,
       "has_hap": true
     },
     {
@@ -26,7 +35,7 @@
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4728,
+      "stars": 4739,
       "has_hap": true
     },
     {
@@ -39,15 +48,6 @@
       "has_hap": true
     },
     {
-      "app_name": "t3code-harmony",
-      "repository": "EwhenJoo/t3code-harmony",
-      "repository_url": "https://github.com/EwhenJoo/t3code-harmony",
-      "description": "Unofficial native HarmonyOS client for T3 Code (ArkTS / ArkUI) · T3 Code 鸿蒙原生客户端",
-      "license": "MIT",
-      "stars": 0,
-      "has_hap": true
-    },
-    {
       "app_name": "Pokemon-SA-for-HarmonyOS",
       "repository": "GoodNima/Pokemon-SA-for-HarmonyOS",
       "repository_url": "https://github.com/GoodNima/Pokemon-SA-for-HarmonyOS",
@@ -57,12 +57,30 @@
       "has_hap": true
     },
     {
+      "app_name": "dsh-hos",
+      "repository": "Jerrylee2044/dsh-hos",
+      "repository_url": "https://github.com/Jerrylee2044/dsh-hos",
+      "description": "DSH HOS: unofficial DeepSeek Harness build for HarmonyOS / Mate XTs (build overlay + self-sign guide)",
+      "license": "MIT",
+      "stars": 1,
+      "has_hap": true
+    },
+    {
+      "app_name": "cc-haha-mobile-for-harmony",
+      "repository": "KOTMMMMM/cc-haha-mobile-for-harmony",
+      "repository_url": "https://github.com/KOTMMMMM/cc-haha-mobile-for-harmony",
+      "description": "HarmonyOS NEXT client for Claude Code (cc-haha): streaming chat, tool permissions, built-in Tailscale VPN. ArkTS + NAPI/Go.",
+      "license": "MIT",
+      "stars": 0,
+      "has_hap": true
+    },
+    {
       "app_name": "zhifan",
       "repository": "Kicklice/zhifan",
       "repository_url": "https://github.com/Kicklice/zhifan",
       "description": "Zhifan - AI exam mistake notebook (unsigned HAP release)",
       "license": "",
-      "stars": 1,
+      "stars": 2,
       "has_hap": true
     },
     {
@@ -75,12 +93,21 @@
       "has_hap": true
     },
     {
+      "app_name": "class-tools-harmony",
+      "repository": "Link0Kong/class-tools-harmony",
+      "repository_url": "https://github.com/Link0Kong/class-tools-harmony",
+      "description": "班级工具站 · HarmonyOS 原生客户端：ArkTS + ArkUI（Stage 模型），零第三方运行依赖，覆盖 16 个班级工具",
+      "license": "MIT",
+      "stars": 1,
+      "has_hap": true
+    },
+    {
       "app_name": "bilimusic",
       "repository": "NaivG/bilimusic",
       "repository_url": "https://github.com/NaivG/bilimusic",
       "description": "基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器",
       "license": "AGPL-3.0",
-      "stars": 237,
+      "stars": 243,
       "has_hap": true
     },
     {
@@ -98,7 +125,7 @@
       "repository_url": "https://github.com/Suixin04/Anomicon",
       "description": "面向 HarmonyOS 的非官方 SCP 中文阅读与探索应用，支持档案与故事浏览、本地收藏、阅读历史及交互式 3D 档案。",
       "license": "Apache-2.0",
-      "stars": 1,
+      "stars": 2,
       "has_hap": true
     },
     {
@@ -111,21 +138,21 @@
       "has_hap": true
     },
     {
+      "app_name": "EhViewer-Harmony",
+      "repository": "Timk-ztls/EhViewer-Harmony",
+      "repository_url": "https://github.com/Timk-ztls/EhViewer-Harmony",
+      "description": "EhViewer ported to HarmonyOS (ArkTS / API 20)",
+      "license": "GPL-3.0",
+      "stars": 3,
+      "has_hap": true
+    },
+    {
       "app_name": "ArkClash",
       "repository": "VOD-Studio/ArkClash",
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
       "license": "GPL-3.0",
-      "stars": 29,
-      "has_hap": true
-    },
-    {
-      "app_name": "njuschedule-hmos",
-      "repository": "WheretoSleepinNJU/njuschedule-hmos",
-      "repository_url": "https://github.com/WheretoSleepinNJU/njuschedule-hmos",
-      "description": "呢喃课表（NJU Schedule NEXT）—— 南哪课表 App 的 HarmonyOS / ArkTS 原生重写版",
-      "license": "Apache-2.0",
-      "stars": 1,
+      "stars": 32,
       "has_hap": true
     },
     {
@@ -138,15 +165,6 @@
       "has_hap": true
     },
     {
-      "app_name": "way-harmonyos",
-      "repository": "being123321/way-harmonyos",
-      "repository_url": "https://github.com/being123321/way-harmonyos",
-      "description": "非官方鸿蒙移植的 xray 客户端（HarmonyOS / ArkTS，内核 aimalygin/xray-rust）。供个人学习与技术研究。",
-      "license": "MPL-2.0",
-      "stars": 1,
-      "has_hap": true
-    },
-    {
       "app_name": "blender-harmonyos",
       "repository": "chenchen-008/blender-harmonyos",
       "repository_url": "https://github.com/chenchen-008/blender-harmonyos",
@@ -156,12 +174,21 @@
       "has_hap": true
     },
     {
-      "app_name": "PiliNara",
-      "repository": "dev4harmony/PiliNara",
-      "repository_url": "https://github.com/dev4harmony/PiliNara",
-      "description": "PiliNara ported to HarmonyOS (ohos-Flutter). PiliPlus-based ohos platform layer merged into the PiliNara product codebase.",
-      "license": "GPL-3.0",
-      "stars": 76,
+      "app_name": "blueberry-theater",
+      "repository": "docomola/blueberry-theater",
+      "repository_url": "https://github.com/docomola/blueberry-theater",
+      "description": "蓝莓剧场 · HarmonyOS NEXT 原生短剧聚合播放器（仅发布安装包，不含源代码）",
+      "license": "",
+      "stars": 1,
+      "has_hap": true
+    },
+    {
+      "app_name": "pure_live_ohos",
+      "repository": "docomola/pure_live_ohos",
+      "repository_url": "https://github.com/docomola/pure_live_ohos",
+      "description": "纯粹直播 Pure Live 的 HarmonyOS NEXT 鸿蒙原生移植版 (AGPL-3.0 fork of liuchuancong/pure_live)",
+      "license": "AGPL-3.0",
+      "stars": 5,
       "has_hap": true
     },
     {
@@ -188,7 +215,7 @@
       "repository_url": "https://github.com/harmony-on-android/HOA",
       "description": "Run OpenHarmony hap on Android",
       "license": "",
-      "stars": 828,
+      "stars": 829,
       "has_hap": true
     },
     {
@@ -198,24 +225,6 @@
       "description": "Switch games natively on HarmonyOS NEXT: NSO AArch64 static rewrite + Horizon HLE + NVN-to-Vulkan replay. Zelda BOTW runs on device (M1 baseline).",
       "license": "NOASSERTION",
       "stars": 5,
-      "has_hap": true
-    },
-    {
-      "app_name": "legado-with-md3-harmonyos",
-      "repository": "hbxs0571/legado-with-md3-harmonyos",
-      "repository_url": "https://github.com/hbxs0571/legado-with-md3-harmonyos",
-      "description": "Legado with MD3 for HarmonyOS",
-      "license": "GPL-3.0",
-      "stars": 5,
-      "has_hap": true
-    },
-    {
-      "app_name": "Olex2-HarmonyPC",
-      "repository": "huihui200739/Olex2-HarmonyPC",
-      "repository_url": "https://github.com/huihui200739/Olex2-HarmonyPC",
-      "description": "Olex2（晶体学软件）的 HarmonyOS PC 移植：上游 commit 固定 + 122 份补丁 + N-API/ArkUI 适配层。0.22.62 开发树，442/442 编译与严格链接资格，均已逐项验收。",
-      "license": "NOASSERTION",
-      "stars": 1,
       "has_hap": true
     },
     {
@@ -269,7 +278,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1427,
+      "stars": 1446,
       "has_hap": true
     },
     {
@@ -297,6 +306,15 @@
       "description": "📱 一个基于 HarmonyOS 平台的 Electron 应用程序包（HAP）项目模板，提供完整的工具链和示例代码，帮助开发者将 Electron 应用无缝移植到鸿蒙设备。支持悬浮窗、系统权限管理、多窗口协同等鸿蒙原生特性，内置调试工具和权限配置指南。",
       "license": "",
       "stars": 56,
+      "has_hap": true
+    },
+    {
+      "app_name": "ShuYoHarmony",
+      "repository": "rsk2ayton-dev/ShuYoHarmony",
+      "repository_url": "https://github.com/rsk2ayton-dev/ShuYoHarmony",
+      "description": "SHU友 原生鸿蒙版 — 专为上海大学师生设计的校园一站式服务 HarmonyOS 应用",
+      "license": "",
+      "stars": 0,
       "has_hap": true
     },
     {
@@ -354,30 +372,12 @@
       "has_hap": true
     },
     {
-      "app_name": "Sheaf-Reader",
-      "repository": "simon2137/Sheaf-Reader",
-      "repository_url": "https://github.com/simon2137/Sheaf-Reader",
-      "description": "面向 HarmonyOS NEXT（平板 / 2-in-1）的 RSS 阅读器，由 AI 移植自 Fluent Reader；已上架华为 AppGallery",
-      "license": "BSD-3-Clause",
-      "stars": 1,
-      "has_hap": true
-    },
-    {
       "app_name": "pocket-harness-ohos",
       "repository": "snoworwind/pocket-harness-ohos",
       "repository_url": "https://github.com/snoworwind/pocket-harness-ohos",
       "description": "DeepSeek Harness 的 HarmonyOS 原生版：官方 Web GUI + IEC 原生执行核 + libvterm 终端",
       "license": "MIT",
       "stars": 2,
-      "has_hap": true
-    },
-    {
-      "app_name": "HandySend",
-      "repository": "springtwr/HandySend",
-      "repository_url": "https://github.com/springtwr/HandySend",
-      "description": "鸿蒙跨设备文件传输应用，兼容 LocalSend 协议与互传联盟（MTA）",
-      "license": "Apache-2.0",
-      "stars": 4,
       "has_hap": true
     },
     {
@@ -399,15 +399,6 @@
       "has_hap": true
     },
     {
-      "app_name": "jidecards-anki-harmonyos",
-      "repository": "wuweiyouzuoju/jidecards-anki-harmonyos",
-      "repository_url": "https://github.com/wuweiyouzuoju/jidecards-anki-harmonyos",
-      "description": "基于 HarmonyOS 的 Anki 卡片学习客户端，复用 Anki Rust 后端",
-      "license": "AGPL-3.0",
-      "stars": 26,
-      "has_hap": true
-    },
-    {
       "app_name": "NekoBox4Harmony",
       "repository": "xiaoli8571/NekoBox4Harmony",
       "repository_url": "https://github.com/xiaoli8571/NekoBox4Harmony",
@@ -426,12 +417,12 @@
       "has_hap": true
     },
     {
-      "app_name": "istore-pilot",
-      "repository": "zifeng-chen/istore-pilot",
-      "repository_url": "https://github.com/zifeng-chen/istore-pilot",
-      "description": "iStoreOS 路由管理全家桶：路由器 Python Agent + Android / HarmonyOS / iOS 三端原生客户端 + 浏览器控制台",
-      "license": "MIT",
-      "stars": 3,
+      "app_name": "zhihu-plus-plus-HMOS",
+      "repository": "zhuoyi233/zhihu-plus-plus-HMOS",
+      "repository_url": "https://github.com/zhuoyi233/zhihu-plus-plus-HMOS",
+      "description": "Zhihu++ For HarmonyOS | 知乎++鸿蒙原生版",
+      "license": "AGPL-3.0",
+      "stars": 70,
       "has_hap": true
     }
   ]
