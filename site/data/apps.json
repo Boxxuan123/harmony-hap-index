@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T12:29:32+00:00",
-  "count": 48,
+  "generated_at": "2026-11-25T11:18:06+00:00",
+  "count": 51,
   "apps": [
     {
       "app_name": "kdevelop-ohos-artifacts",
@@ -9,24 +9,6 @@
       "description": "KDevelop for HarmonyOS PC - HAP build artifacts (releases only; source: atomgit.com/jumping_ggjjkk/kdevelop-ohos)",
       "license": "",
       "stars": 0,
-      "has_hap": true
-    },
-    {
-      "app_name": "LinMinHaoChat",
-      "repository": "93857536-pixel/LinMinHaoChat",
-      "repository_url": "https://github.com/93857536-pixel/LinMinHaoChat",
-      "description": "端到端加密聊天(E2EE):免注册临时聊天 / 邀请群聊(6位码门禁) / 永久账号(已读回执·加密附件·在线状态·多设备密钥迁移),服务器只存密文无万能密钥 | iOS + Android + HarmonyOS 三端安装包 + Web 测试客户端,未签名侧载可装 | 支持 5 分钟本地自部署,或直接用托管版 chat.linminhao.top | SwiftUI+CryptoKit · React+Node · Web Crypto · WebSocket",
-      "license": "MIT",
-      "stars": 1,
-      "has_hap": true
-    },
-    {
-      "app_name": "DeepSeekGo-Harmony",
-      "repository": "APXS114514/DeepSeekGo-Harmony",
-      "repository_url": "https://github.com/APXS114514/DeepSeekGo-Harmony",
-      "description": "基于 DeepSeek 官方 Chat Demo 开发的第三方 HarmonyOS 客户端，支持系统语音输入、图片识字和系统分享。",
-      "license": "MIT",
-      "stars": 3,
       "has_hap": true
     },
     {
@@ -39,12 +21,21 @@
       "has_hap": true
     },
     {
+      "app_name": "MC4HOS",
+      "repository": "BytinIsDead/MC4HOS",
+      "repository_url": "https://github.com/BytinIsDead/MC4HOS",
+      "description": "Minecraft For harmonyos/openharmony",
+      "license": "NOASSERTION",
+      "stars": 1,
+      "has_hap": true
+    },
+    {
       "app_name": "kelivo",
       "repository": "Chevey339/kelivo",
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4755,
+      "stars": 4770,
       "has_hap": true
     },
     {
@@ -69,7 +60,7 @@
       "app_name": "dsh-hos",
       "repository": "Jerrylee2044/dsh-hos",
       "repository_url": "https://github.com/Jerrylee2044/dsh-hos",
-      "description": "DSH HOS — 在 HarmonyOS 手机上运行完整 DeepSeek Harness 的自研原生运行时与原生壳层",
+      "description": "DSH HOS — 在 HarmonyOS 上运行完整 DeepSeek Harness 的自研原生运行时；Mate XTs (GRL-AL20) 与 JUY-AL80 已完成真机回归",
       "license": "MIT",
       "stars": 1,
       "has_hap": true
@@ -98,7 +89,7 @@
       "repository_url": "https://github.com/LMV475/hap-installer",
       "description": "在手机上为鸿蒙应用签名、安装与管理调试证书，无需 PC。",
       "license": "Apache-2.0",
-      "stars": 22,
+      "stars": 23,
       "has_hap": true
     },
     {
@@ -116,7 +107,7 @@
       "repository_url": "https://github.com/NaivG/bilimusic",
       "description": "基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器",
       "license": "AGPL-3.0",
-      "stars": 249,
+      "stars": 252,
       "has_hap": true
     },
     {
@@ -125,7 +116,7 @@
       "repository_url": "https://github.com/OpenBMB/MiniCPM-V-Apps",
       "description": "MiniCPM-V apps — fully offline multimodal chat on iOS / Android / HarmonyOS",
       "license": "NOASSERTION",
-      "stars": 533,
+      "stars": 535,
       "has_hap": true
     },
     {
@@ -161,7 +152,7 @@
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
       "license": "GPL-3.0",
-      "stars": 32,
+      "stars": 39,
       "has_hap": true
     },
     {
@@ -170,7 +161,7 @@
       "repository_url": "https://github.com/YuriLin1028/LxMine",
       "description": "LxMine：融合 LX Music 音源与 Mineradio 沉浸视觉的跨端音乐播放器（Windows / HarmonyOS）",
       "license": "GPL-3.0",
-      "stars": 32,
+      "stars": 33,
       "has_hap": true
     },
     {
@@ -179,7 +170,7 @@
       "repository_url": "https://github.com/abc123-hubish/HO-FMusic-Folia",
       "description": "FMusic HarmonyOS 音乐播放器 · 完整源码、版本说明与 HAP 下载",
       "license": "AGPL-3.0",
-      "stars": 5,
+      "stars": 6,
       "has_hap": true
     },
     {
@@ -201,10 +192,19 @@
       "has_hap": true
     },
     {
+      "app_name": "pure_live_ohos",
+      "repository": "docomola/pure_live_ohos",
+      "repository_url": "https://github.com/docomola/pure_live_ohos",
+      "description": "纯粹直播 Pure Live 的 HarmonyOS NEXT 鸿蒙原生移植版 (AGPL-3.0 fork of liuchuancong/pure_live)",
+      "license": "AGPL-3.0",
+      "stars": 6,
+      "has_hap": true
+    },
+    {
       "app_name": "Amane-Harmony",
       "repository": "dogmicats/Amane-Harmony",
       "repository_url": "https://github.com/dogmicats/Amane-Harmony",
-      "description": "非官方 HarmonyOS 原生客户端，面向自建 JAV 媒体库（Amane）：番号检索、演员/共演组合筛选、分类浏览、收藏续播、mpv 硬解播放与外挂字幕；配套轻量 Python 旁挂服务，通过块缓存与并行预取优化网盘及冷区资源播放。Unofficial HarmonyOS (ArkUI + mpv) client for self-hosted Amane JAV media library.",
+      "description": "自建 Amane 媒体库的非官方 HarmonyOS NEXT 客户端（ArkUI + mpv）与旁挂服务：共演甄选、筛选抽卡、自动补字幕、我的口味、刷一刷、亮点截帧、弹幕与观影统计。Unofficial HarmonyOS NEXT client for self-hosted Amane.",
       "license": "MIT",
       "stars": 4,
       "has_hap": true
@@ -224,7 +224,7 @@
       "repository_url": "https://github.com/harmony-on-android/HOA",
       "description": "Run OpenHarmony hap on Android",
       "license": "",
-      "stars": 831,
+      "stars": 830,
       "has_hap": true
     },
     {
@@ -237,12 +237,21 @@
       "has_hap": true
     },
     {
-      "app_name": "legado-with-md3-harmonyos",
-      "repository": "hbxs0571/legado-with-md3-harmonyos",
-      "repository_url": "https://github.com/hbxs0571/legado-with-md3-harmonyos",
-      "description": "Legado with MD3 for HarmonyOS",
+      "app_name": "d2r-mobile",
+      "repository": "jhaizhou-ops/d2r-mobile",
+      "repository_url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
+      "license": "MIT",
+      "stars": 5385,
+      "has_hap": true
+    },
+    {
+      "app_name": "ReadRss",
+      "repository": "junytang/ReadRss",
+      "repository_url": "https://github.com/junytang/ReadRss",
+      "description": "RSS reader for HarmonyOS",
       "license": "GPL-3.0",
-      "stars": 5,
+      "stars": 0,
       "has_hap": true
     },
     {
@@ -269,16 +278,16 @@
       "repository_url": "https://github.com/levinrinco/Clash-Mate-for-HarmonyOS",
       "description": "HarmonyOS 原生 Clash 客户端，基于 mihomo。IPv4/IPv6 双栈，支持桌面卡片、长时任务保活、实况窗、订阅与节点测速；Releases 提供未签名 HAP。",
       "license": "GPL-3.0",
-      "stars": 32,
+      "stars": 33,
       "has_hap": true
     },
     {
-      "app_name": "Qly-Mail",
-      "repository": "llnode/Qly-Mail",
-      "repository_url": "https://github.com/llnode/Qly-Mail",
-      "description": "Qly 巧理 · 原生 HarmonyOS AI 邮件客户端 · 未签名 HAP 发布仓库",
-      "license": "",
-      "stars": 5,
+      "app_name": "UBAA-Ark",
+      "repository": "li-peipeipeipei/UBAA-Ark",
+      "repository_url": "https://github.com/li-peipeipeipei/UBAA-Ark",
+      "description": "UBAA 的 HarmonyOS 原生特别版 · ArkTS / ArkUI / HDS · Make BUAA Great Again !",
+      "license": "MIT",
+      "stars": 1,
       "has_hap": true
     },
     {
@@ -296,7 +305,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1456,
+      "stars": 1467,
       "has_hap": true
     },
     {
@@ -341,6 +350,15 @@
       "repository_url": "https://github.com/shaliuxin/gridcraft-hmos",
       "description": "GridCraft (Rust + egui spreadsheet) ported to HarmonyOS: ArkTS + C++ N-API + Rust, wgpu GLES, dual-ABI .hap.",
       "license": "Apache-2.0",
+      "stars": 0,
+      "has_hap": true
+    },
+    {
+      "app_name": "lightcraft-hmos",
+      "repository": "shaliuxin/lightcraft-hmos",
+      "repository_url": "https://github.com/shaliuxin/lightcraft-hmos",
+      "description": "LightCraft (Rust + egui non-destructive photo/RAW developer) ported to HarmonyOS: full 简体中文 UI with system-language auto-detection, dual-ABI (arm64-v8a + x86_64) HAP.",
+      "license": "",
       "stars": 0,
       "has_hap": true
     },
@@ -414,6 +432,15 @@
       "description": "Codex Desktop-style mobile UI that securely controls remote Codex over SSH on Android and OpenHarmony",
       "license": "MIT",
       "stars": 4,
+      "has_hap": true
+    },
+    {
+      "app_name": "jidecards-anki-harmonyos",
+      "repository": "wuweiyouzuoju/jidecards-anki-harmonyos",
+      "repository_url": "https://github.com/wuweiyouzuoju/jidecards-anki-harmonyos",
+      "description": "基于 HarmonyOS 的 Anki 卡片学习客户端，复用 Anki Rust 后端",
+      "license": "AGPL-3.0",
+      "stars": 26,
       "has_hap": true
     },
     {
