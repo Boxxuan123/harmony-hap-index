@@ -1,16 +1,7 @@
 {
-  "generated_at": "2026-11-25T11:18:06+00:00",
-  "count": 51,
+  "generated_at": "2026-11-26T10:53:24+00:00",
+  "count": 42,
   "apps": [
-    {
-      "app_name": "kdevelop-ohos-artifacts",
-      "repository": "2847181243-ops/kdevelop-ohos-artifacts",
-      "repository_url": "https://github.com/2847181243-ops/kdevelop-ohos-artifacts",
-      "description": "KDevelop for HarmonyOS PC - HAP build artifacts (releases only; source: atomgit.com/jumping_ggjjkk/kdevelop-ohos)",
-      "license": "",
-      "stars": 0,
-      "has_hap": true
-    },
     {
       "app_name": "CFLark-Harmony",
       "repository": "Bailin-Love/CFLark-Harmony",
@@ -35,7 +26,7 @@
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4770,
+      "stars": 4788,
       "has_hap": true
     },
     {
@@ -45,6 +36,15 @@
       "description": "幻瞳界域 · HarmonyOS 全景与 HDR 视频播放器 · HAP 下载与版本更新日志",
       "license": "",
       "stars": 1,
+      "has_hap": true
+    },
+    {
+      "app_name": "Tangyuan-Audiobook",
+      "repository": "Gentleman-Yuan/Tangyuan-Audiobook",
+      "repository_url": "https://github.com/Gentleman-Yuan/Tangyuan-Audiobook",
+      "description": "鸿蒙有声书客户端 · 仅分发安装包与更新日志，不含源码",
+      "license": "",
+      "stars": 0,
       "has_hap": true
     },
     {
@@ -89,7 +89,7 @@
       "repository_url": "https://github.com/LMV475/hap-installer",
       "description": "在手机上为鸿蒙应用签名、安装与管理调试证书，无需 PC。",
       "license": "Apache-2.0",
-      "stars": 23,
+      "stars": 25,
       "has_hap": true
     },
     {
@@ -99,33 +99,6 @@
       "description": "班级工具站 · HarmonyOS 原生客户端：ArkTS + ArkUI（Stage 模型），零第三方运行依赖，覆盖 16 个班级工具",
       "license": "MIT",
       "stars": 1,
-      "has_hap": true
-    },
-    {
-      "app_name": "bilimusic",
-      "repository": "NaivG/bilimusic",
-      "repository_url": "https://github.com/NaivG/bilimusic",
-      "description": "基于 Dart / TypeScript / Vela JS 的哔哩哔哩音乐播放器",
-      "license": "AGPL-3.0",
-      "stars": 252,
-      "has_hap": true
-    },
-    {
-      "app_name": "MiniCPM-V-Apps",
-      "repository": "OpenBMB/MiniCPM-V-Apps",
-      "repository_url": "https://github.com/OpenBMB/MiniCPM-V-Apps",
-      "description": "MiniCPM-V apps — fully offline multimodal chat on iOS / Android / HarmonyOS",
-      "license": "NOASSERTION",
-      "stars": 535,
-      "has_hap": true
-    },
-    {
-      "app_name": "Anomicon",
-      "repository": "Suixin04/Anomicon",
-      "repository_url": "https://github.com/Suixin04/Anomicon",
-      "description": "面向 HarmonyOS 的非官方 SCP 中文阅读与探索应用，支持档案与故事浏览、本地收藏、阅读历史及交互式 3D 档案。",
-      "license": "Apache-2.0",
-      "stars": 2,
       "has_hap": true
     },
     {
@@ -152,16 +125,7 @@
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
       "license": "GPL-3.0",
-      "stars": 39,
-      "has_hap": true
-    },
-    {
-      "app_name": "LxMine",
-      "repository": "YuriLin1028/LxMine",
-      "repository_url": "https://github.com/YuriLin1028/LxMine",
-      "description": "LxMine：融合 LX Music 音源与 Mineradio 沉浸视觉的跨端音乐播放器（Windows / HarmonyOS）",
-      "license": "GPL-3.0",
-      "stars": 33,
+      "stars": 43,
       "has_hap": true
     },
     {
@@ -192,12 +156,12 @@
       "has_hap": true
     },
     {
-      "app_name": "pure_live_ohos",
-      "repository": "docomola/pure_live_ohos",
-      "repository_url": "https://github.com/docomola/pure_live_ohos",
-      "description": "纯粹直播 Pure Live 的 HarmonyOS NEXT 鸿蒙原生移植版 (AGPL-3.0 fork of liuchuancong/pure_live)",
-      "license": "AGPL-3.0",
-      "stars": 6,
+      "app_name": "AnyShortHM",
+      "repository": "ches2010/AnyShortHM",
+      "repository_url": "https://github.com/ches2010/AnyShortHM",
+      "description": "AnyShort (anyshort.net) ported to HarmonyOS - ArkUI native rewrite with GitHub Actions HAP build",
+      "license": "",
+      "stars": 0,
       "has_hap": true
     },
     {
@@ -206,7 +170,7 @@
       "repository_url": "https://github.com/dogmicats/Amane-Harmony",
       "description": "自建 Amane 媒体库的非官方 HarmonyOS NEXT 客户端（ArkUI + mpv）与旁挂服务：共演甄选、筛选抽卡、自动补字幕、我的口味、刷一刷、亮点截帧、弹幕与观影统计。Unofficial HarmonyOS NEXT client for self-hosted Amane.",
       "license": "MIT",
-      "stars": 4,
+      "stars": 5,
       "has_hap": true
     },
     {
@@ -224,7 +188,7 @@
       "repository_url": "https://github.com/harmony-on-android/HOA",
       "description": "Run OpenHarmony hap on Android",
       "license": "",
-      "stars": 830,
+      "stars": 831,
       "has_hap": true
     },
     {
@@ -233,25 +197,7 @@
       "repository_url": "https://github.com/hashiqi12138/nxohos",
       "description": "Switch games natively on HarmonyOS NEXT: NSO AArch64 static rewrite + Horizon HLE + NVN-to-Vulkan replay. Zelda BOTW runs on device (M1 baseline).",
       "license": "NOASSERTION",
-      "stars": 5,
-      "has_hap": true
-    },
-    {
-      "app_name": "d2r-mobile",
-      "repository": "jhaizhou-ops/d2r-mobile",
-      "repository_url": "https://github.com/jhaizhou-ops/d2r-mobile",
-      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
-      "license": "MIT",
-      "stars": 5385,
-      "has_hap": true
-    },
-    {
-      "app_name": "ReadRss",
-      "repository": "junytang/ReadRss",
-      "repository_url": "https://github.com/junytang/ReadRss",
-      "description": "RSS reader for HarmonyOS",
-      "license": "GPL-3.0",
-      "stars": 0,
+      "stars": 6,
       "has_hap": true
     },
     {
@@ -282,20 +228,11 @@
       "has_hap": true
     },
     {
-      "app_name": "UBAA-Ark",
-      "repository": "li-peipeipeipei/UBAA-Ark",
-      "repository_url": "https://github.com/li-peipeipeipei/UBAA-Ark",
-      "description": "UBAA 的 HarmonyOS 原生特别版 · ArkTS / ArkUI / HDS · Make BUAA Great Again !",
-      "license": "MIT",
-      "stars": 1,
-      "has_hap": true
-    },
-    {
       "app_name": "hmos-qwitter",
       "repository": "llnode/hmos-qwitter",
       "repository_url": "https://github.com/llnode/hmos-qwitter",
       "description": "Qwitter for HarmonyOS — HAP releases",
-      "license": "",
+      "license": "MIT",
       "stars": 27,
       "has_hap": true
     },
@@ -305,7 +242,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1467,
+      "stars": 1478,
       "has_hap": true
     },
     {
@@ -314,7 +251,7 @@
       "repository_url": "https://github.com/muleos/BYKEY-release",
       "description": "BY KEY｜鸿蒙手机端比亚迪蓝牙数字钥匙 App（沿用官方手表钥匙授权通道）。只发安装包，仅提供 HAP。",
       "license": "",
-      "stars": 7,
+      "stars": 8,
       "has_hap": true
     },
     {
@@ -426,30 +363,12 @@
       "has_hap": true
     },
     {
-      "app_name": "Android-SSH-Codex",
-      "repository": "wkj2333666/Android-SSH-Codex",
-      "repository_url": "https://github.com/wkj2333666/Android-SSH-Codex",
-      "description": "Codex Desktop-style mobile UI that securely controls remote Codex over SSH on Android and OpenHarmony",
-      "license": "MIT",
-      "stars": 4,
-      "has_hap": true
-    },
-    {
-      "app_name": "jidecards-anki-harmonyos",
-      "repository": "wuweiyouzuoju/jidecards-anki-harmonyos",
-      "repository_url": "https://github.com/wuweiyouzuoju/jidecards-anki-harmonyos",
-      "description": "基于 HarmonyOS 的 Anki 卡片学习客户端，复用 Anki Rust 后端",
-      "license": "AGPL-3.0",
-      "stars": 26,
-      "has_hap": true
-    },
-    {
       "app_name": "NekoBox4Harmony",
       "repository": "xiaoli8571/NekoBox4Harmony",
       "repository_url": "https://github.com/xiaoli8571/NekoBox4Harmony",
       "description": "NekoBox-style VPN client for HarmonyOS NEXT; in-process sing-box 1.11.9 c-shared core (Hysteria2/TUIC), clone-and-build unsigned HAP",
       "license": "",
-      "stars": 87,
+      "stars": 88,
       "has_hap": true
     },
     {
