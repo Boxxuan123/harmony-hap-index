@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T10:53:24+00:00",
-  "count": 42,
+  "generated_at": "2026-11-27T10:51:40+00:00",
+  "count": 43,
   "apps": [
     {
       "app_name": "CFLark-Harmony",
@@ -26,7 +26,7 @@
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4788,
+      "stars": 4802,
       "has_hap": true
     },
     {
@@ -44,7 +44,7 @@
       "repository_url": "https://github.com/Gentleman-Yuan/Tangyuan-Audiobook",
       "description": "鸿蒙有声书客户端 · 仅分发安装包与更新日志，不含源码",
       "license": "",
-      "stars": 0,
+      "stars": 1,
       "has_hap": true
     },
     {
@@ -54,24 +54,6 @@
       "description": "鸿蒙原生移植版宝可梦SA，基于PC原版，本仓库仅发布hap安装包。",
       "license": "",
       "stars": 9,
-      "has_hap": true
-    },
-    {
-      "app_name": "dsh-hos",
-      "repository": "Jerrylee2044/dsh-hos",
-      "repository_url": "https://github.com/Jerrylee2044/dsh-hos",
-      "description": "DSH HOS — 在 HarmonyOS 上运行完整 DeepSeek Harness 的自研原生运行时；Mate XTs (GRL-AL20) 与 JUY-AL80 已完成真机回归",
-      "license": "MIT",
-      "stars": 1,
-      "has_hap": true
-    },
-    {
-      "app_name": "cc-haha-mobile-for-harmony",
-      "repository": "KOTMMMMM/cc-haha-mobile-for-harmony",
-      "repository_url": "https://github.com/KOTMMMMM/cc-haha-mobile-for-harmony",
-      "description": "HarmonyOS NEXT client for Claude Code (cc-haha): streaming chat, tool permissions, built-in Tailscale VPN. ArkTS + NAPI/Go.",
-      "license": "MIT",
-      "stars": 0,
       "has_hap": true
     },
     {
@@ -102,6 +84,15 @@
       "has_hap": true
     },
     {
+      "app_name": "MiniCPM-V-Apps",
+      "repository": "OpenBMB/MiniCPM-V-Apps",
+      "repository_url": "https://github.com/OpenBMB/MiniCPM-V-Apps",
+      "description": "MiniCPM-V apps — fully offline multimodal chat on iOS / Android / HarmonyOS",
+      "license": "NOASSERTION",
+      "stars": 540,
+      "has_hap": true
+    },
+    {
       "app_name": "Deepin-HarmonyOS-Bridge",
       "repository": "THUDou/Deepin-HarmonyOS-Bridge",
       "repository_url": "https://github.com/THUDou/Deepin-HarmonyOS-Bridge",
@@ -120,21 +111,21 @@
       "has_hap": true
     },
     {
+      "app_name": "turbo-ai-chat-harmonyos",
+      "repository": "Torry2022/turbo-ai-chat-harmonyos",
+      "repository_url": "https://github.com/Torry2022/turbo-ai-chat-harmonyos",
+      "description": "Multi-model native LLM chat for HarmonyOS NEXT with MNN Runtime.",
+      "license": "Apache-2.0",
+      "stars": 1,
+      "has_hap": true
+    },
+    {
       "app_name": "ArkClash",
       "repository": "VOD-Studio/ArkClash",
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
       "license": "GPL-3.0",
-      "stars": 43,
-      "has_hap": true
-    },
-    {
-      "app_name": "HO-FMusic-Folia",
-      "repository": "abc123-hubish/HO-FMusic-Folia",
-      "repository_url": "https://github.com/abc123-hubish/HO-FMusic-Folia",
-      "description": "FMusic HarmonyOS 音乐播放器 · 完整源码、版本说明与 HAP 下载",
-      "license": "AGPL-3.0",
-      "stars": 6,
+      "stars": 48,
       "has_hap": true
     },
     {
@@ -165,6 +156,15 @@
       "has_hap": true
     },
     {
+      "app_name": "pure_live_ohos",
+      "repository": "docomola/pure_live_ohos",
+      "repository_url": "https://github.com/docomola/pure_live_ohos",
+      "description": "纯粹直播 Pure Live 的 HarmonyOS NEXT 鸿蒙原生移植版 (AGPL-3.0 fork of liuchuancong/pure_live)",
+      "license": "AGPL-3.0",
+      "stars": 6,
+      "has_hap": true
+    },
+    {
       "app_name": "Amane-Harmony",
       "repository": "dogmicats/Amane-Harmony",
       "repository_url": "https://github.com/dogmicats/Amane-Harmony",
@@ -188,7 +188,7 @@
       "repository_url": "https://github.com/harmony-on-android/HOA",
       "description": "Run OpenHarmony hap on Android",
       "license": "",
-      "stars": 831,
+      "stars": 830,
       "has_hap": true
     },
     {
@@ -219,6 +219,15 @@
       "has_hap": true
     },
     {
+      "app_name": "harmony-kslmkf-karing-hap",
+      "repository": "ks-lm-kf/harmony-kslmkf-karing-hap",
+      "repository_url": "https://github.com/ks-lm-kf/harmony-kslmkf-karing-hap",
+      "description": "HarmonyOS HAP beta release for Karing/sing-box based build",
+      "license": "",
+      "stars": 89,
+      "has_hap": true
+    },
+    {
       "app_name": "Clash-Mate-for-HarmonyOS",
       "repository": "levinrinco/Clash-Mate-for-HarmonyOS",
       "repository_url": "https://github.com/levinrinco/Clash-Mate-for-HarmonyOS",
@@ -242,7 +251,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1478,
+      "stars": 1489,
       "has_hap": true
     },
     {
@@ -345,15 +354,6 @@
       "has_hap": true
     },
     {
-      "app_name": "pocket-harness-ohos",
-      "repository": "snoworwind/pocket-harness-ohos",
-      "repository_url": "https://github.com/snoworwind/pocket-harness-ohos",
-      "description": "DeepSeek Harness 的 HarmonyOS 原生版：官方 Web GUI + IEC 原生执行核 + libvterm 终端",
-      "license": "MIT",
-      "stars": 2,
-      "has_hap": true
-    },
-    {
       "app_name": "Breeze-ohos",
       "repository": "tianmeng-xiu/Breeze-ohos",
       "repository_url": "https://github.com/tianmeng-xiu/Breeze-ohos",
@@ -363,12 +363,21 @@
       "has_hap": true
     },
     {
-      "app_name": "NekoBox4Harmony",
-      "repository": "xiaoli8571/NekoBox4Harmony",
-      "repository_url": "https://github.com/xiaoli8571/NekoBox4Harmony",
-      "description": "NekoBox-style VPN client for HarmonyOS NEXT; in-process sing-box 1.11.9 c-shared core (Hysteria2/TUIC), clone-and-build unsigned HAP",
+      "app_name": "Android-SSH-Codex",
+      "repository": "wkj2333666/Android-SSH-Codex",
+      "repository_url": "https://github.com/wkj2333666/Android-SSH-Codex",
+      "description": "Codex Desktop-style mobile UI that securely controls remote Codex over SSH on Android and OpenHarmony",
+      "license": "MIT",
+      "stars": 4,
+      "has_hap": true
+    },
+    {
+      "app_name": "DengYing",
+      "repository": "xiao-hans/DengYing",
+      "repository_url": "https://github.com/xiao-hans/DengYing",
+      "description": "灯影 DengYing：无广告、无账号、无埋点的本地影视播放器。Kotlin Multiplatform + Compose Multiplatform 一套代码覆盖 Android / iOS / HarmonyOS 三端。A local video player built on Kotlin Multiplatform + Compose Multiplatform — one codebase across Android, iOS and HarmonyOS.",
       "license": "",
-      "stars": 88,
+      "stars": 0,
       "has_hap": true
     },
     {
