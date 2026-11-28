@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T10:51:40+00:00",
+  "generated_at": "2026-11-28T10:26:21+00:00",
   "count": 43,
   "apps": [
     {
@@ -26,7 +26,7 @@
       "repository_url": "https://github.com/Chevey339/kelivo",
       "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
       "license": "AGPL-3.0",
-      "stars": 4802,
+      "stars": 4813,
       "has_hap": true
     },
     {
@@ -34,15 +34,6 @@
       "repository": "DSHwithdsh/PanoVivid-Releases",
       "repository_url": "https://github.com/DSHwithdsh/PanoVivid-Releases",
       "description": "幻瞳界域 · HarmonyOS 全景与 HDR 视频播放器 · HAP 下载与版本更新日志",
-      "license": "",
-      "stars": 1,
-      "has_hap": true
-    },
-    {
-      "app_name": "Tangyuan-Audiobook",
-      "repository": "Gentleman-Yuan/Tangyuan-Audiobook",
-      "repository_url": "https://github.com/Gentleman-Yuan/Tangyuan-Audiobook",
-      "description": "鸿蒙有声书客户端 · 仅分发安装包与更新日志，不含源码",
       "license": "",
       "stars": 1,
       "has_hap": true
@@ -84,12 +75,12 @@
       "has_hap": true
     },
     {
-      "app_name": "MiniCPM-V-Apps",
-      "repository": "OpenBMB/MiniCPM-V-Apps",
-      "repository_url": "https://github.com/OpenBMB/MiniCPM-V-Apps",
-      "description": "MiniCPM-V apps — fully offline multimodal chat on iOS / Android / HarmonyOS",
-      "license": "NOASSERTION",
-      "stars": 540,
+      "app_name": "Cexing",
+      "repository": "Starfie1d1272/Cexing",
+      "repository_url": "https://github.com/Starfie1d1272/Cexing",
+      "description": "策星 · Cexing — HarmonyOS 原生代理客户端，集成 Mihomo Smart 与 Zashboard",
+      "license": "GPL-3.0",
+      "stars": 4,
       "has_hap": true
     },
     {
@@ -111,21 +102,12 @@
       "has_hap": true
     },
     {
-      "app_name": "turbo-ai-chat-harmonyos",
-      "repository": "Torry2022/turbo-ai-chat-harmonyos",
-      "repository_url": "https://github.com/Torry2022/turbo-ai-chat-harmonyos",
-      "description": "Multi-model native LLM chat for HarmonyOS NEXT with MNN Runtime.",
-      "license": "Apache-2.0",
-      "stars": 1,
-      "has_hap": true
-    },
-    {
       "app_name": "ArkClash",
       "repository": "VOD-Studio/ArkClash",
       "repository_url": "https://github.com/VOD-Studio/ArkClash",
       "description": "原生 HarmonyOS NEXT 代理客户端：mihomo 内核，ArkTS/ArkUI 界面，交互参考 FlClash",
       "license": "GPL-3.0",
-      "stars": 48,
+      "stars": 55,
       "has_hap": true
     },
     {
@@ -135,6 +117,15 @@
       "description": "HarmonyOS 上的 V2rayM 客户端：ArkTS UI + mihomo (Go) 内核 + NAPI 桥 + 系统 VPN 扩展。非官方项目，与 v2rayNG / mihomo 无隶属关系。",
       "license": "GPL-3.0",
       "stars": 3,
+      "has_hap": true
+    },
+    {
+      "app_name": "way-harmonyos",
+      "repository": "being123321/way-harmonyos",
+      "repository_url": "https://github.com/being123321/way-harmonyos",
+      "description": "非官方鸿蒙移植的 xray 客户端（HarmonyOS / ArkTS，内核 aimalygin/xray-rust）。供个人学习与技术研究。",
+      "license": "MPL-2.0",
+      "stars": 4,
       "has_hap": true
     },
     {
@@ -153,15 +144,6 @@
       "description": "AnyShort (anyshort.net) ported to HarmonyOS - ArkUI native rewrite with GitHub Actions HAP build",
       "license": "",
       "stars": 0,
-      "has_hap": true
-    },
-    {
-      "app_name": "pure_live_ohos",
-      "repository": "docomola/pure_live_ohos",
-      "repository_url": "https://github.com/docomola/pure_live_ohos",
-      "description": "纯粹直播 Pure Live 的 HarmonyOS NEXT 鸿蒙原生移植版 (AGPL-3.0 fork of liuchuancong/pure_live)",
-      "license": "AGPL-3.0",
-      "stars": 6,
       "has_hap": true
     },
     {
@@ -201,6 +183,15 @@
       "has_hap": true
     },
     {
+      "app_name": "ReadRss",
+      "repository": "junytang/ReadRss",
+      "repository_url": "https://github.com/junytang/ReadRss",
+      "description": "RSS reader for HarmonyOS",
+      "license": "GPL-3.0",
+      "stars": 0,
+      "has_hap": true
+    },
+    {
       "app_name": "crystal-wastes",
       "repository": "kdada/crystal-wastes",
       "repository_url": "https://github.com/kdada/crystal-wastes",
@@ -233,7 +224,16 @@
       "repository_url": "https://github.com/levinrinco/Clash-Mate-for-HarmonyOS",
       "description": "HarmonyOS 原生 Clash 客户端，基于 mihomo。IPv4/IPv6 双栈，支持桌面卡片、长时任务保活、实况窗、订阅与节点测速；Releases 提供未签名 HAP。",
       "license": "GPL-3.0",
-      "stars": 33,
+      "stars": 35,
+      "has_hap": true
+    },
+    {
+      "app_name": "fusheng-yiji",
+      "repository": "light-FY/fusheng-yiji",
+      "repository_url": "https://github.com/light-FY/fusheng-yiji",
+      "description": "浮生一记 · 本地优先的日记 App：写字、贴图、地图标记、天气、时间筛选。数据只存在本机，导出为明文 zip。Android 已构建，HarmonyOS/iOS 工程就绪。",
+      "license": "MIT",
+      "stars": 0,
       "has_hap": true
     },
     {
@@ -251,7 +251,7 @@
       "repository_url": "https://github.com/metasequoiaime/msime",
       "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
       "license": "GPL-3.0",
-      "stars": 1489,
+      "stars": 1499,
       "has_hap": true
     },
     {
@@ -260,7 +260,7 @@
       "repository_url": "https://github.com/muleos/BYKEY-release",
       "description": "BY KEY｜鸿蒙手机端比亚迪蓝牙数字钥匙 App（沿用官方手表钥匙授权通道）。只发安装包，仅提供 HAP。",
       "license": "",
-      "stars": 8,
+      "stars": 9,
       "has_hap": true
     },
     {
